@@ -123,7 +123,7 @@ const updateInputValue = (prompt = null) => {
     sdgsText = sdgsText + allWeights[list_target_sdgs[i] - 1].title + "、";
   }
   sdgsText = sdgsText.slice(0, -1); // 移除最後一個頓號
-  input.value = `請${selectTwoText}，符合${sdgsText}。`;
+  input.value = `請提供${selectTwoText}，符合${sdgsText}。`;
 };
 
 const windowForAnalysisProjectSROI = () => {
