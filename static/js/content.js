@@ -446,7 +446,7 @@ export async function set_page_info_content() {
 
     var obj_span_nft_hash = document.createElement("span");
     obj_span_nft_hash.className = "word-wrap";
-    obj_span_nft_hash.innerHTML = '<input type="button" value="NFT on OpenSea" onclick="window.open(\'' + txn_nft + '\', \'_blank\');" />';
+    obj_span_nft_hash.innerHTML = <!--'<input type="button" value="NFT on OpenSea" onclick="window.open(\'' + txn_nft + '\', \'_blank\');" />';-->
 
     obj_p_nft.append(obj_span_nft);
     obj_p_nft.append(obj_span_nft_hash);
