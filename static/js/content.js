@@ -442,7 +442,7 @@ export async function set_page_info_content() {
 
     var obj_span_nft = document.createElement("span");
     obj_span_nft.className = "fw-bold";
-    obj_span_nft.innerText = "NFT: ";
+    // obj_span_nft.innerText = "NFT: ";
 
     var obj_span_nft_hash = document.createElement("span");
     obj_span_nft_hash.className = "word-wrap";
